@@ -1,0 +1,65 @@
+/* CSS Entry Point */
+.app {
+	position: relative;
+	height: 400px;
+	width: 800px;
+	margin: auto;
+	margin-top: 100px;
+	border: 1px solid #00c6d6;
+	overflow: hidden;
+}
+
+p {
+	color: grey;
+	font-size: 15px;
+}
+.accordian2 {
+	background-color: white;
+	position: absolute;
+	text-align: left;
+	padding-bottom: 100px;
+	width: 800px;
+	top: calc(100% - 78px);
+
+}
+
+.accordian3 {
+	background-color: white;
+	position: absolute;
+	text-align: left;
+	padding-bottom: 100px;
+	width: 800px;
+	top: calc(100% - 39px);
+}
+
+.header {
+	transition: all 1s;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: white;
+	background-color: #00c6d6;
+	font-size: 35px;
+	&:hover {
+		background-color: #00daec;
+	}
+}
+
+.up {
+	top: calc(0% + 39px);
+}
+
+.up2 {
+	top: calc(0% + 78px);
+}
+
+.accordian1 {
+	transition: all 1s;
+}
+
+.accordian2 {
+	transition: all 1s;
+}
+
+.accordian3 {
+	transition: all 1s;
+}
