@@ -1,0 +1,1 @@
+When clicking a section header in order. The section of text will show.
